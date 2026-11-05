@@ -251,24 +251,40 @@ footer {
 
 @media screen and (max-width: 600px) {
 
-   
-    nav {
-        padding: 12px 15px;
-    }
+     nav {
+    padding: 8px 10px;
+    height: auto;
+    min-height: 55px;
+    flex-wrap: wrap;
+}
 
-    nav h2 {
-        font-size: 23px;
-    }
+nav h2 {
+    font-size: 17px;
+}
 
-    nav ul {
-        gap: 5px;
-    }
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 0;
+    margin: 0;
+}
 
-    nav a {
-        font-size: 14px;
-        padding: 6px 4px;
-    }
+nav ul li {
+    margin-left: 5px;
+}
 
+nav a {
+    font-size: 12px;
+    padding: 5px 3px;
+}
+
+#darkmode {
+    font-size: 13px;
+    padding: 5px 8px;
+}
     .home {
         flex-direction: column;
         text-align: center;
